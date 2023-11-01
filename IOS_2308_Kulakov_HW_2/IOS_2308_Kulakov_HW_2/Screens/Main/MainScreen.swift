@@ -8,23 +8,18 @@
 import SwiftUI
 
 struct MainScreen: View {
-    
-    @State private var orientation = UIDeviceOrientation.unknown
-    @State var screenSize = UIScreen.screenSize
+
     @State var selectedTab: HeaderList.Headers = .cma
     
     var body: some View {
-        VStack{
-            if (orientation.rawValue == 0 && screenSize.width < screenSize.height) || orientation.rawValue == 1 {
-                verticalView
+        GeometryReader {proxy in
+            if proxy.size.width < proxy.size.height {
+                verticalView(size: proxy.size)
             } else {
-                horizontalView
+                horizontalView(size: proxy.size)
             }
         }
         .background(.black)
-        .onRotate {
-            orientation = $0
-        }
         .ignoresSafeArea(edges: .vertical)
         .preferredColorScheme(.dark)
     }
@@ -41,34 +36,22 @@ struct MainScreen: View {
         }
     }
     
-    @ViewBuilder
-    var verticalView: some View {
-        GeometryReader { proxy in
-            let width = proxy.size.width
-            let height = proxy.size.height
-            
+   
+    func verticalView(size: CGSize) -> some View {
             VStack(spacing: 0) {
                 HeaderList(selectedTab: $selectedTab)
-                    .frame(width: width, height: height * 0.29)
+                    .frame(width: size.width, height: size.height * 0.29)
                 
                 artworksList
             }
-        }
     }
     
-    @ViewBuilder
-    var horizontalView: some View {
-        GeometryReader { proxy in
-            let width = proxy.size.width
-            let height = proxy.size.height
-            
+    func horizontalView(size: CGSize) -> some View {
             HStack(spacing: 0) {
                 HeaderList(selectedTab: $selectedTab)
-                    .frame(width: width * 0.38, height: height)
-                
+                    .frame(width: size.width * 0.38, height: size.height)
                 artworksList
             }
-        }
     }
 }
 

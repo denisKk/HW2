@@ -96,7 +96,7 @@ struct ArtworkScreen: View {
             }
             .font(.subheadline.weight(.bold))
             .padding(.horizontal)
-            .background(.gray)
+            .background(.gray.opacity(0.85))
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
             .ignoresSafeArea(edges: .bottom)
         }

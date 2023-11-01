@@ -58,7 +58,7 @@ extension HeaderList {
             case .aic:
                 return Image("aic")
             case .cma:
-                return Image("cma")
+                return Image("cma2")
             case .risd:
                 return Image("risd")
             }

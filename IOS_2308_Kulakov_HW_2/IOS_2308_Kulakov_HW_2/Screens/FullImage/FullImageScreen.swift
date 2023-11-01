@@ -22,6 +22,7 @@ struct FullImageScreen: View {
         
         GeometryReader { proxy in
             ZStack {
+                
                 CacheAsyncImage(url: url) { phase in
                     switch phase {
                     case .empty:
@@ -61,6 +62,18 @@ struct FullImageScreen: View {
                     
                     Spacer()
                 }
+                
+                VStack {
+                    HStack {
+                        Image(systemName: "hand.draw.fill")
+                        Text(" drag to magnify")
+                    }
+                    .font(.subheadline.weight(.bold))
+                    .padding(.horizontal)
+                    .foregroundColor(.gray)
+                }
+                .opacity(scale == 1 ? 1 : 0)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             

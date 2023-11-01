@@ -21,7 +21,6 @@ struct ArtworkListCell: View {
                 Rectangle()
                     .frame(maxWidth: .infinity)
                     .frame(minHeight: 250, idealHeight: 310, maxHeight: 700)
-                    .background(.gray)
                     .padding()
             case .success(let image):
                 image

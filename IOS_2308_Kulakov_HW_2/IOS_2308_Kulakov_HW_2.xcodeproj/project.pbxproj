@@ -14,8 +14,6 @@
 		B80E5F172AD88A440039961F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80E5F162AD88A440039961F /* Preview Assets.xcassets */; };
 		B80E5F1E2AD88EFC0039961F /* HeaderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F1D2AD88EFC0039961F /* HeaderListView.swift */; };
 		B80E5F202AD88F2C0039961F /* ArtworksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F1F2AD88F2C0039961F /* ArtworksListView.swift */; };
-		B80E5F232AD8910D0039961F /* OrientationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F222AD8910D0039961F /* OrientationModifier.swift */; };
-		B80E5F272AD891710039961F /* View+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F262AD891710039961F /* View+Orientation.swift */; };
 		B80E5F2A2AD8FC9C0039961F /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F292AD8FC9C0039961F /* ArtworkModel.swift */; };
 		B838C6A42ADEA1A800E74DF8 /* ArtInstituteChicagoNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B838C6A32ADEA1A800E74DF8 /* ArtInstituteChicagoNetworking */; };
 		B838C6A72ADED37200E74DF8 /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = B838C6A62ADED37200E74DF8 /* UI */; };
@@ -26,7 +24,6 @@
 		B89EC5A62AEB138A0017A28C /* ClevelandMuseumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EC5A52AEB138A0017A28C /* ClevelandMuseumViewModel.swift */; };
 		B89EC5A92AEB339D0017A28C /* RISDMuseumNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B89EC5A82AEB339D0017A28C /* RISDMuseumNetworking */; };
 		B89EC5AB2AEB34610017A28C /* RISDMuseumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EC5AA2AEB34610017A28C /* RISDMuseumViewModel.swift */; };
-		B89EC5AF2AF0FBF50017A28C /* UIScreen+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EC5AE2AF0FBF40017A28C /* UIScreen+Size.swift */; };
 		B89EC5B12AF1BCE90017A28C /* String+HtmlAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EC5B02AF1BCE90017A28C /* String+HtmlAttributed.swift */; };
 		B89EC5B52AF250180017A28C /* RandomAccessCollection+Last.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EC5B42AF250180017A28C /* RandomAccessCollection+Last.swift */; };
 		B89EC5BD2AF253960017A28C /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EC5BC2AF253960017A28C /* HeaderCell.swift */; };
@@ -42,8 +39,6 @@
 		B80E5F162AD88A440039961F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B80E5F1D2AD88EFC0039961F /* HeaderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderListView.swift; sourceTree = "<group>"; };
 		B80E5F1F2AD88F2C0039961F /* ArtworksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksListView.swift; sourceTree = "<group>"; };
-		B80E5F222AD8910D0039961F /* OrientationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationModifier.swift; sourceTree = "<group>"; };
-		B80E5F262AD891710039961F /* View+Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Orientation.swift"; sourceTree = "<group>"; };
 		B80E5F292AD8FC9C0039961F /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
 		B820BCD02AF26128001E4A3C /* IOS-2308-Kulakov-HW-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS-2308-Kulakov-HW-2-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B838C6A12ADE94DE00E74DF8 /* ArtInstituteChicagoNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ArtInstituteChicagoNetworking; path = ../../Modules/ArtInstituteChicagoNetworking; sourceTree = "<group>"; };
@@ -55,7 +50,6 @@
 		B89EC5A52AEB138A0017A28C /* ClevelandMuseumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClevelandMuseumViewModel.swift; sourceTree = "<group>"; };
 		B89EC5A72AEB338C0017A28C /* RISDMuseumNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RISDMuseumNetworking; path = ../../Modules/RISDMuseumNetworking; sourceTree = "<group>"; };
 		B89EC5AA2AEB34610017A28C /* RISDMuseumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RISDMuseumViewModel.swift; sourceTree = "<group>"; };
-		B89EC5AE2AF0FBF40017A28C /* UIScreen+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Size.swift"; sourceTree = "<group>"; };
 		B89EC5B02AF1BCE90017A28C /* String+HtmlAttributed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HtmlAttributed.swift"; sourceTree = "<group>"; };
 		B89EC5B42AF250180017A28C /* RandomAccessCollection+Last.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+Last.swift"; sourceTree = "<group>"; };
 		B89EC5BC2AF253960017A28C /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
@@ -105,7 +99,6 @@
 				B89EC5B92AF250C70017A28C /* Application */,
 				B80E5F282AD8FC870039961F /* Models */,
 				B89EC5B72AF250AC0017A28C /* Screens */,
-				B80E5F212AD890E80039961F /* Modifiers */,
 				B80E5F242AD8912D0039961F /* Extensions */,
 				B89EC5C52AF257360017A28C /* Assets */,
 				B80E5F152AD88A440039961F /* Preview Content */,
@@ -121,19 +114,9 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B80E5F212AD890E80039961F /* Modifiers */ = {
-			isa = PBXGroup;
-			children = (
-				B80E5F222AD8910D0039961F /* OrientationModifier.swift */,
-			);
-			path = Modifiers;
-			sourceTree = "<group>";
-		};
 		B80E5F242AD8912D0039961F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B80E5F262AD891710039961F /* View+Orientation.swift */,
-				B89EC5AE2AF0FBF40017A28C /* UIScreen+Size.swift */,
 				B89EC5B02AF1BCE90017A28C /* String+HtmlAttributed.swift */,
 				B89EC5B42AF250180017A28C /* RandomAccessCollection+Last.swift */,
 			);
@@ -326,8 +309,6 @@
 				B80E5F102AD88A420039961F /* ArtworksApp.swift in Sources */,
 				B89EC5A62AEB138A0017A28C /* ClevelandMuseumViewModel.swift in Sources */,
 				B89EC5BD2AF253960017A28C /* HeaderCell.swift in Sources */,
-				B80E5F232AD8910D0039961F /* OrientationModifier.swift in Sources */,
-				B80E5F272AD891710039961F /* View+Orientation.swift in Sources */,
 				B80E5F2A2AD8FC9C0039961F /* ArtworkModel.swift in Sources */,
 				B80E5F202AD88F2C0039961F /* ArtworksListView.swift in Sources */,
 				B80E5F1E2AD88EFC0039961F /* HeaderListView.swift in Sources */,
@@ -338,7 +319,6 @@
 				B89EC5B12AF1BCE90017A28C /* String+HtmlAttributed.swift in Sources */,
 				B80C3F3B2AE9C0550087FA73 /* FullImageScreen.swift in Sources */,
 				B842A9D12ADD7FDE00F78CF6 /* ArtInstituteChicagoViewModel.swift in Sources */,
-				B89EC5AF2AF0FBF50017A28C /* UIScreen+Size.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +451,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IOS-2308-Kulakov-HW-2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "A r t";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -500,6 +481,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IOS-2308-Kulakov-HW-2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "A r t";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
