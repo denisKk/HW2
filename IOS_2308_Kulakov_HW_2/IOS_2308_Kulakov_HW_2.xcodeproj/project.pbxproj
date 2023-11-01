@@ -45,6 +45,7 @@
 		B80E5F222AD8910D0039961F /* OrientationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationModifier.swift; sourceTree = "<group>"; };
 		B80E5F262AD891710039961F /* View+Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Orientation.swift"; sourceTree = "<group>"; };
 		B80E5F292AD8FC9C0039961F /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		B820BCD02AF26128001E4A3C /* IOS-2308-Kulakov-HW-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS-2308-Kulakov-HW-2-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B838C6A12ADE94DE00E74DF8 /* ArtInstituteChicagoNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ArtInstituteChicagoNetworking; path = ../../Modules/ArtInstituteChicagoNetworking; sourceTree = "<group>"; };
 		B838C6A52ADEC1E000E74DF8 /* UI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UI; path = ../../Modules/UI; sourceTree = "<group>"; };
 		B838C6A92ADED3DF00E74DF8 /* ArtworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkScreen.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		B80E5F0E2AD88A420039961F /* IOS_2308_Kulakov_HW_2 */ = {
 			isa = PBXGroup;
 			children = (
+				B820BCD02AF26128001E4A3C /* IOS-2308-Kulakov-HW-2-Info.plist */,
 				B838C6A52ADEC1E000E74DF8 /* UI */,
 				B838C6A12ADE94DE00E74DF8 /* ArtInstituteChicagoNetworking */,
 				B89EC5A22AEB11EA0017A28C /* ClevelandMuseumNetworking */,
@@ -468,9 +470,9 @@
 				DEVELOPMENT_TEAM = 6464RAB4U4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS-2308-Kulakov-HW-2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,9 +499,9 @@
 				DEVELOPMENT_TEAM = 6464RAB4U4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS-2308-Kulakov-HW-2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
