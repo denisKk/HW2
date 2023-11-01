@@ -43,7 +43,6 @@ final class ArtInstituteChicagoViewModel: ArtworkListViewModel {
                 items.imageId != nil || items.altImageIds?.first != nil
                 
             }) {
-              //  print(array)
                 self.page += 1
                 self.canLoad = result?.pagination?.nextUrl != nil
                 let modelsArray = array.map {
