@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import UI
 
 @main
-struct IOS_2308_Kulakov_HW_2App: App {
+struct ArtworksApp: App {
+ 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                MainScreen()
+            }
         }
     }
 }
