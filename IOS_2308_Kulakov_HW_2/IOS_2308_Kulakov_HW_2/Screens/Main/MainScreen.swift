@@ -33,6 +33,8 @@ struct MainScreen: View {
             ArtworksList(artworkListVM: ClevelandMuseumViewModel())
         case .risd:
             ArtworksList(artworkListVM: RISDMuseumViewModel())
+        case .hams:
+            ArtworksList(artworkListVM: HarvardArtMuseumsViewModel())
         }
     }
     

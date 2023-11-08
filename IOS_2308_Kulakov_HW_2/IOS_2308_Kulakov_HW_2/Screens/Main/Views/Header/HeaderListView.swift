@@ -40,7 +40,9 @@ extension HeaderList {
     enum Headers: Int, CaseIterable {
         case cma
         case aic
+        case hams
         case risd
+        
         
         var description: String {
             switch self {
@@ -50,6 +52,8 @@ extension HeaderList {
                 return "Cleveland Museum of Art"
             case .risd:
                 return "Rhode Island School of Design Museum"
+            case .hams:
+                return "Harvard Art Museums"
             }
         }
         
@@ -61,6 +65,8 @@ extension HeaderList {
                 return Image("cma2")
             case .risd:
                 return Image("risd")
+            case .hams:
+                return Image("ham")
             }
         }
     }

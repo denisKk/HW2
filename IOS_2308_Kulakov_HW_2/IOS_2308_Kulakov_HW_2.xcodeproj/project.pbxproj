@@ -15,6 +15,8 @@
 		B80E5F1E2AD88EFC0039961F /* HeaderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F1D2AD88EFC0039961F /* HeaderListView.swift */; };
 		B80E5F202AD88F2C0039961F /* ArtworksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F1F2AD88F2C0039961F /* ArtworksListView.swift */; };
 		B80E5F2A2AD8FC9C0039961F /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E5F292AD8FC9C0039961F /* ArtworkModel.swift */; };
+		B820BCD32AFBADA1001E4A3C /* HarvardArtMuseumsNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B820BCD22AFBADA1001E4A3C /* HarvardArtMuseumsNetworking */; };
+		B820BCD52AFBC288001E4A3C /* HarvardArtMuseumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820BCD42AFBC288001E4A3C /* HarvardArtMuseumsViewModel.swift */; };
 		B838C6A42ADEA1A800E74DF8 /* ArtInstituteChicagoNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = B838C6A32ADEA1A800E74DF8 /* ArtInstituteChicagoNetworking */; };
 		B838C6A72ADED37200E74DF8 /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = B838C6A62ADED37200E74DF8 /* UI */; };
 		B838C6AA2ADED3DF00E74DF8 /* ArtworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838C6A92ADED3DF00E74DF8 /* ArtworkScreen.swift */; };
@@ -41,6 +43,8 @@
 		B80E5F1F2AD88F2C0039961F /* ArtworksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworksListView.swift; sourceTree = "<group>"; };
 		B80E5F292AD8FC9C0039961F /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
 		B820BCD02AF26128001E4A3C /* IOS-2308-Kulakov-HW-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "IOS-2308-Kulakov-HW-2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B820BCD12AFBACD4001E4A3C /* HarvardArtMuseumsNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HarvardArtMuseumsNetworking; path = ../../Modules/HarvardArtMuseumsNetworking; sourceTree = "<group>"; };
+		B820BCD42AFBC288001E4A3C /* HarvardArtMuseumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvardArtMuseumsViewModel.swift; sourceTree = "<group>"; };
 		B838C6A12ADE94DE00E74DF8 /* ArtInstituteChicagoNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ArtInstituteChicagoNetworking; path = ../../Modules/ArtInstituteChicagoNetworking; sourceTree = "<group>"; };
 		B838C6A52ADEC1E000E74DF8 /* UI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UI; path = ../../Modules/UI; sourceTree = "<group>"; };
 		B838C6A92ADED3DF00E74DF8 /* ArtworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkScreen.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 				B89EC5A42AEB12040017A28C /* ClevelandMuseumNetworking in Frameworks */,
 				B838C6A72ADED37200E74DF8 /* UI in Frameworks */,
 				B89EC5A92AEB339D0017A28C /* RISDMuseumNetworking in Frameworks */,
+				B820BCD32AFBADA1001E4A3C /* HarvardArtMuseumsNetworking in Frameworks */,
 				B838C6A42ADEA1A800E74DF8 /* ArtInstituteChicagoNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +101,7 @@
 				B838C6A12ADE94DE00E74DF8 /* ArtInstituteChicagoNetworking */,
 				B89EC5A22AEB11EA0017A28C /* ClevelandMuseumNetworking */,
 				B89EC5A72AEB338C0017A28C /* RISDMuseumNetworking */,
+				B820BCD12AFBACD4001E4A3C /* HarvardArtMuseumsNetworking */,
 				B89EC5B92AF250C70017A28C /* Application */,
 				B80E5F282AD8FC870039961F /* Models */,
 				B89EC5B72AF250AC0017A28C /* Screens */,
@@ -200,6 +206,7 @@
 				B842A9D02ADD7FDE00F78CF6 /* ArtInstituteChicagoViewModel.swift */,
 				B89EC5A52AEB138A0017A28C /* ClevelandMuseumViewModel.swift */,
 				B89EC5AA2AEB34610017A28C /* RISDMuseumViewModel.swift */,
+				B820BCD42AFBC288001E4A3C /* HarvardArtMuseumsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 				B838C6A62ADED37200E74DF8 /* UI */,
 				B89EC5A32AEB12040017A28C /* ClevelandMuseumNetworking */,
 				B89EC5A82AEB339D0017A28C /* RISDMuseumNetworking */,
+				B820BCD22AFBADA1001E4A3C /* HarvardArtMuseumsNetworking */,
 			);
 			productName = IOS_2308_Kulakov_HW_2;
 			productReference = B80E5F0C2AD88A420039961F /* IOS_2308_Kulakov_HW_2.app */;
@@ -314,6 +322,7 @@
 				B80E5F1E2AD88EFC0039961F /* HeaderListView.swift in Sources */,
 				B89EC5C12AF254680017A28C /* ArtworkListViewModel.swift in Sources */,
 				B89EC5AB2AEB34610017A28C /* RISDMuseumViewModel.swift in Sources */,
+				B820BCD52AFBC288001E4A3C /* HarvardArtMuseumsViewModel.swift in Sources */,
 				B838C6AA2ADED3DF00E74DF8 /* ArtworkScreen.swift in Sources */,
 				B842A9D52ADDF07600F78CF6 /* ArtworkListCell.swift in Sources */,
 				B89EC5B12AF1BCE90017A28C /* String+HtmlAttributed.swift in Sources */,
@@ -523,6 +532,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B820BCD22AFBADA1001E4A3C /* HarvardArtMuseumsNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HarvardArtMuseumsNetworking;
+		};
 		B838C6A32ADEA1A800E74DF8 /* ArtInstituteChicagoNetworking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ArtInstituteChicagoNetworking;
